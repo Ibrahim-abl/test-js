@@ -65,7 +65,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ### Réponses exercice 1.
 
-
+```
 var phrase = "" //mettre un texte quelconque
 
 function test(re){
@@ -81,8 +81,9 @@ function test(re){
   else {return false}
 }
 console.log(test(phrase))
-
+```
 //
+```
 var phraseExemple = "" //mettre un texte quelconque
 
 function Test(re){
@@ -95,3 +96,4 @@ function Test(re){
   }
 }
 console.log(Test(phraseExemple))
+```
