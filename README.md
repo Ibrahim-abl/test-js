@@ -61,3 +61,37 @@ Avant de vous lancer dans la programmation du composant MyRE, testez l'expressio
 
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+### Réponses exercice 1.
+
+
+var phrase = "" //mettre un texte quelconque
+
+function test(re){
+  if (re.search(/^Der/)){
+    return
+  }
+  else if (re.search(/^Das/)){
+    return
+  }
+  else if (re.search(/^Die/)){
+    return
+  }
+  else {return false}
+}
+console.log(test(phrase))
+
+//
+var phraseExemple = "" //mettre un texte quelconque
+
+function Test(re){
+  var oui = re.search(/^Der|^Das|^Die/)
+  if (oui +=0){
+    return true
+  }
+  else{
+    return false
+  }
+}
+console.log(Test(phraseExemple))

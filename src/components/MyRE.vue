@@ -43,10 +43,10 @@ export default {
       this.goodItems = []
     },
     checkItem () {
-      let a = ''
-      // A COMPLETER
-      // ici vous fabriquez un 'a' en composant les éléments de la liste listItems
-      // à l'aide d'une boucle
+      let a = '('
+      a += this.listItems.join('|')
+      a += ')(.*)'
+      console.log(a)
       if (a === '') {
         // throw Error('Le string de RE est vide')
         return
